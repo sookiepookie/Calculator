@@ -12,9 +12,10 @@
     height: 50px;
     position:relative;
     top: 250px;
-    left: 550px;
-
-
+    left: 540px;
+    font-size: 50px;
+    color: black;
+    text-align: right;
 }
 
 .keys{    
@@ -23,7 +24,7 @@
     grid-row-gap: 20px;
     position: absolute;
     top: 65%;
-    left: 51%;
+    left: 50.8%;
     transform: translate(-50%, -50%);
 }
 
@@ -51,7 +52,7 @@
     transform: (-50%,50%);
 }
 
-#operator{
+#blue{
     color: black;
 }
 

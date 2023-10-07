@@ -5,128 +5,126 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cute Calculator</title>
         <link rel="stylesheet" href="style.css"/>
+        <script src="script.js"></script>
     </head>
 
     <body>
-        <script src="calculation.js"></script>
-
         <div class="container">
-            <img id="img" src="hellokitty.png"/>
+            <div class="box"></div>
 
-            <div class="box">
-            </div>
+            <img id="img" src="hellokitty.png"/>
         
             <div class="keys">
-                    <div class="key">
-                        <button>
+                    <div class="key" >
+                        <button class="z" id="numbers" onclick="display('1')">
                             <img class="heart" src="pink crystal.png" alt="1" />
                             <div class="number">1</div>
                         </button>
                     </div>
 
                     <div class="key">
-                        <button>
+                        <button class="z" id="numbers" onclick="display('2')">
                             <img class="heart" src="pink crystal.png" alt="2" />
                             <div class="number">2</div>
                         </button>
                     </div>
 
                     <div class="key">
-                        <button>
+                        <button  class="z"id="numbers" onclick="display('3')">
                             <img class="heart" src="pink crystal.png" alt="3" />
                             <div class="number">3</div>
                         </button>
                     </div>
 
                     
-                    <div class="key">
-                        <button>
-                            <img id="blue" class="heart" src="blue crystal.png" alt="+" />
-                            <div id="operator" class="number">+</div>
+                    <div class="key" >
+                        <button  class="z" id="operator" onclick="display('+')">
+                            <img class="heart" src="blue crystal.png" alt="+" />
+                            <div id="blue" class="number">+</div>
                         </button>
                     </div>
 
-                    <div class="key">
-                            <button>
+                    <div class="key" >
+                            <button class="z" id="numbers" onclick="display('4')">
                                 <img class="heart" src="pink crystal.png" alt="4" />
                                 <div class="number">4</div>
                             </button>
                     </div>
 
                     <div class="key">
-                        <button>
+                        <button class="z" id="numbers" onclick="display('5')">
                             <img class="heart" src="pink crystal.png" alt="5" />
                             <div class="number">5</div>
                         </button>
                     </div>
 
                     <div class="key">
-                        <button>
+                        <button class="z" id="numbers" onclick="display('6')">
                             <img class="heart" src="pink crystal.png" alt="6" />
                             <div class="number">6</div>
                         </button>
                     </div>
         
                     <div class="key">
-                        <button>
-                            <img id="blue" class="heart" src="blue crystal.png" alt="-" />
-                            <div id="operator" class="number">–</div>
+                        <button class="z" id="operator" onclick="display('-')">
+                            <img class="heart" src="blue crystal.png" alt="-" />
+                            <div id="blue" class="number">–</div>
                         </button>
                     </div>
 
                     <div class="key">
-                        <button>
+                        <button class="z" id="numbers" onclick="display('7')">
                             <img class="heart" src="pink crystal.png" alt="7" />
                             <div class="number">7</div>
                         </button>
                     </div>
                 
                     <div class="key">
-                        <button>
+                        <button  class="z" id="numbers" onclick="display('8')">
                             <img class="heart" src="pink crystal.png" alt="8" />
                             <div class="number">8</div>
                         </button>
                     </div>
 
                     <div class="key">
-                        <button>
+                        <button class="z" id="numbers" onclick="display('9')">
                             <img class="heart" src="pink crystal.png" alt="9" />
                             <div class="number">9</div>
                         </button>
                     </div>
 
                     <div class="key">
-                        <button>
-                            <img id="blue" class="heart" src="blue crystal.png" alt="x" />
-                            <div id="operator" class="number">×</div>
+                        <button class="z" id="operator" onclick="display('×')">
+                            <img class="heart" src="blue crystal.png" alt="x" />
+                            <div id="blue" class="number">×</div>
                         </button>
                     </div>
 
                     <div class="key">
-                        <button>
+                        <button class="z" id="clear" >
                             <img class="heart" src="red crystal.png" alt="c" />
                             <div class="number">c</div>
                         </button>
                     </div>
 
                     <div class="key">
-                        <button>
+                        <button class="z" id="numbers" onclick="display('0')">
                             <img class="heart" src="pink crystal.png" alt="0" />
                             <div class="number">0</div>
                         </button>
                     </div>
 
                     <div class="key">
-                        <button>
-                            <img id="blue" class="heart" src="blue crystal.png" alt="=" />
-                            <div id="operator" class="number">=</div>
+                        <button class="z" id="equal">
+                            <img class="heart" src="blue crystal.png" alt="=" />
+                            <div id="blue" class="number">=</div>
                         </button>
                     </div>
 
                     <div class="key">
-                        <button>
-                            <img id="blue" class="heart" src="blue crystal.png" alt="/" />
-                            <div id="operator" class="number">÷</div>
+                        <button class="z" id="operator" onclick="display('÷')">
+                            <img class="heart" src="blue crystal.png" alt="/" />
+                            <div id="blue" class="number">÷</div>
                         </button>
                     </div>
             </div>
