@@ -26,12 +26,14 @@
     top: 65%;
     left: 50.8%;
     transform: translate(-50%, -50%);
+    color: black;
 }
 
 
 .key{
     position: relative;
     text-align: center;
+    color: black;
 }
 
 .heart{
@@ -60,5 +62,6 @@
 button:active{
     cursor: pointer;
     background: gray;
+    color: black;
 
 }
