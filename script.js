@@ -1,7 +1,15 @@
-const button = document.getElementById("z");
-const message = document.querySelector("box");
+let total = "";
+let arrei = [];
 
+document.getElementById("z").addEventListener("click" , display);
 
 function display(a){
-    document.message.innerHTML = a;
+    total += a;
+    document.getElementById("b").innerHTML = total;
+
+    if(a === c){
+        total = "";
+        arrei = "";
+        document.getElementById("b").innerHTML = total;
+    }
 }
